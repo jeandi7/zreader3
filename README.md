@@ -40,7 +40,7 @@ So I changed the grammar from part 2 as follows, to be able to modify the lexica
 
 With zschema5.zed like this, feature 1 is in group's member relation
 
-![zschema](images\zedschema5.png)
+![zschema](images/zedschema5.png)
 
 # Feature 2 : 
 
@@ -54,11 +54,11 @@ I draw
 
 <span style="color:yellow">response: </span>
 
-![response](images\resp1.png)
+![response](images/resp1.png)
 
 Plantuml allows you to generate the following PNG file with the generated zschema5.puml as input:
 
-![example](images\zschema5.png)
+![example](images/zschema5.png)
 
 # Example 2
 
@@ -66,17 +66,17 @@ Even if the parser detects errors, it tries to draw what it can
 
 The schema is :
 
-![example](images\zedschema6.png)
+![example](images/zedschema6.png)
 
 <span style="color:yellow">tape :</span> go run  zreader.go -fschema "./zschema6.zed" -out "zschema6"
 
 <span style="color:yellow">response:</span>
 
-![response](images\resp2.png)
+![response](images/resp2.png)
 
 Using the generated zedschema6.png file with PlantUML helps us to show the Archimate following diagram :
 
-![example](images\zschema6.png)
+![example](images/zschema6.png)
 
 # Help mode
 
