@@ -48,7 +48,7 @@ To understand the search reverse from an object to an user (see my first article
 
 I draw 
 - the relationships between an object and a user with a solid line (relationship is METADATA)
-- the possible existence to go back to a user  by an oriented dotted arrow pointing towards the user.(made possible by the existence of tuples of DATA like object#relation@user or object#relation@group#user)
+- the ability to find a path to a user  by an oriented dotted arrow. (path made possible by the existence of tuples of DATA like object#relation@user or object#relation@group#user)
 
 <span style="color:yellow">tape :</span> go run zreader.go -fschema "./zschema5.zed" -out "zschema5"
 
