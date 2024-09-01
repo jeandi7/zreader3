@@ -44,7 +44,7 @@ With zschema5.zed like this, feature 1 is in group's member relation
 
 # Feature 2 : 
 
-To understand the search reverse from an object to an user (see my first article about zanzibar and prolog with "who can permission object ?" ) 
+To understand the search reverse from an object to a user (see my first article about zanzibar and prolog with "who can permission object ?" ) 
 
 I draw 
 - the relationships between an object and a user with a solid line (relationship is METADATA)
